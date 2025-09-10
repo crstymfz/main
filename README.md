@@ -1,2 +1,2 @@
 # main
-Repositorio, control de versiones
+Marie Curie
