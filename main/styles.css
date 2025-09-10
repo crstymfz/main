@@ -1,0 +1,81 @@
+/* Fuente elegante y legible */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-color: #f5f0e6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado con retrato */
+.hero {
+  text-align: center;
+  background: linear-gradient(to bottom, #4a4a4a, #2d2d2d);
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+.hero .portrait {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0.3rem 0;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Contenido */
+.content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.content h3 {
+  color: #2d2d2d;
+  border-bottom: 2px solid #c4a484;
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+/* Enlaces */
+.links a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #c4a484;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #a67c52;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2d2d2d;
+  color: #eee;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
